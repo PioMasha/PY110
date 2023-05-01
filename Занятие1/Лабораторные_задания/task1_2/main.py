@@ -7,7 +7,7 @@ def task() -> int:
         "Cyan"
     ]
 
-    return ...  # TODO найти длину самого длинного слова
+    return len(max(list_words)) # TODO найти длину самого длинного слова
 
 
 if __name__ == "__main__":
