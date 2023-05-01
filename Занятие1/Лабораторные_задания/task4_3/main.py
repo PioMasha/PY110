@@ -1,9 +1,9 @@
-from itertools import repeat
+import itertools
 
 
 def task():
     a = 10
-    for num in ...:  # TODO повторить переменную a 4 раза
+    for num in itertools.repeat(a, 4):  # TODO повторить переменную a 4 раза
         print(num)
 
 
